@@ -5,6 +5,7 @@ var cors = require('cors');
 app.use(
     cors({
         credentials: true,
+        Access-Control-Allow-Credentials: true,
         origin: 'https://xenodochial-gates-cf6795.netlify.app'
     })
 );
